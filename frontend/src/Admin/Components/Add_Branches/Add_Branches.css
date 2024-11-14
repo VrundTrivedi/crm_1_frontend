@@ -1,0 +1,12 @@
+.show_all_admin_container {
+    background-color: #fff;
+    width: 96%;
+    height: 100%;
+    margin-top: 26px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+.table1 .col-12{
+  overflow-y: hidden;
+}

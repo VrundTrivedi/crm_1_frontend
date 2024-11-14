@@ -1,0 +1,15 @@
+.rs-input-group.rs-input-group-inside {
+    height: 51px;
+}
+.show_multiple_images_container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.show_order_info_titles{
+    font-size: 1em;
+    text-align: start;
+    font-weight: 500;
+}
+

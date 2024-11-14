@@ -1,0 +1,26 @@
+.get_notification_days_container{
+    height: 60px;
+    background-color: white;
+    width: 96%;
+    border-radius : 20px;
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+/* #f5f7fa */
+
+.get_notification_days_btn{
+    background-color : transparent;
+    border:0 ;
+    border-color : transparent;
+    border-radius : 20px
+
+}
+
+.get_notification_days_btn:focus{
+    background-color: rgb(233, 242, 255);
+    border-color : transparent;
+    
+}

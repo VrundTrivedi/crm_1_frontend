@@ -1,0 +1,115 @@
+.admin_dashboard_card {
+    height: auto;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 0;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out 0s;
+    transform: rotate(0deg) scale(1);
+    /* transform: rotateY(20deg); */
+    
+}
+.admin_dashboard_card:hover {
+    transform: rotate(2deg) scale(1.03);
+    transition: all 0.3s ease-in-out 0s;
+}
+.admin_dashboard_card .dash-box-info {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.admin_dashboard_card .box-info-link {
+    border-radius: 0px 0px 16px 16px;
+    background-color: #ffffff40;
+    backdrop-filter: blur(5px);
+    padding: 5px 0;
+}
+.admin_dashboard_card .box-info-link a {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    line-height: 2;
+    letter-spacing: 0.5px;
+    display: block;
+}
+.admin_dashboard_card_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.admin_dashboard_card1{
+    background: linear-gradient(127deg, rgba(250,192,104,1) 0%, rgba(252,118,131,1) 105%);
+    box-shadow: rgba(250,192,104,.30) 0px 50px 100px -20px, rgba(252,118,131,.30) 0px 30px 60px -30px;
+    
+}
+.admin_dashboard_card2{
+    background: linear-gradient(127deg, rgba(0, 247, 167,1) 0%, rgba(4, 245, 237,1) 105%);
+    box-shadow: rgba(0, 247, 167,.30) 0px 50px 100px -20px, rgba(4, 245, 237,.30) 0px 30px 60px -30px;
+}
+.admin_dashboard_card3{
+    background: linear-gradient(127deg, rgba(29, 229, 226,1) 0%, rgba(181, 136, 247,1) 105%);
+    box-shadow: rgba(29, 229, 226,.30) 0px 50px 100px -20px, rgba(181, 136, 247,.30) 0px 30px 60px -30px;
+}
+.admin_dashboard_card4{
+    background: linear-gradient(127deg, rgba(255, 227, 36,1) 0%, rgba(255, 181, 51,1) 105%);
+    box-shadow: rgba(255, 227, 36,.30) 0px 50px 100px -20px, rgba(255, 181, 51,.30) 0px 30px 60px -30px;
+}
+
+:root {
+    --avg-red: calc((250 + 0 + 29 + 255) / 4);
+    --avg-green: calc((192 + 247 + 229 + 227) / 4);
+    --avg-blue: calc((104 + 167 + 226 + 36) / 4);
+  }
+  
+  /* 5th card with gradient matching average color */
+  .admin_dashboard_card5 {
+    background: linear-gradient(127deg, rgba(var(--avg-red), var(--avg-green), var(--avg-blue), 1) 0%, rgba(var(--avg-red), var(--avg-green), var(--avg-blue), 105%));
+    box-shadow: rgba(var(--avg-red), var(--avg-green), var(--avg-blue), .30) 0px 50px 100px -20px, rgba(var(--avg-red), var(--avg-green), var(--avg-blue), .30) 0px 30px 60px -30px;
+  }
+
+@media screen and (width>= 1024px) {
+    .admin_dashboard_card{
+        width: 300px;
+    }
+  }
+  @media screen and (width<= 1024px) {
+    .admin_dashboard_card{
+        width: 350px;
+    }
+  }
+  
+  @media screen and (min-width>= 768px) {
+    .admin_dashboard_card{
+        width: 380px;
+    }
+  }
+  .top_navbar_container{
+    height: 50px;
+    background-color: #11101d;
+    margin-bottom: 2vh;
+  }
+  @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) {
+    .admin_dashboard_card{
+        width: 380px;
+    }
+}
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) {
+    .admin_dashboard_card{
+        width: 280px;
+    }}

@@ -1,0 +1,28 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.admin_login_form1{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10%;
+    font-family: poppins;
+    border-radius: 40px;
+    
+
+}
+.admin_login_comapny_logo1{
+    width: 180px;
+    height: 180px;
+    margin: 0;
+    margin-left: 2%;
+}
+a.btn.forget_pass_btn{
+    font-size: 13px;
+    background-color: #cee8ff;
+    position: relative;
+    /* right: 140px; */
+}

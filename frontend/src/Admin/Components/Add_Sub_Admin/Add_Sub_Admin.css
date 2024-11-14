@@ -1,0 +1,19 @@
+.show_all_admin_container{
+    background-color: #fff;
+    width: 96%;
+    height: 90vh;
+    
+    margin-top: 26px;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+label#state-select-label {
+    background: #fff;
+}
+label#role-select-label {
+    background: #fff;
+}
+.password_box_con input#outlined-basic {
+    text-transform: none;
+}

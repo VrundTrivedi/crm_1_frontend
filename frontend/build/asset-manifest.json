@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5aeec1ff.css",
+    "main.js": "/static/js/main.819284a5.js",
+    "static/js/213.370cafde.chunk.js": "/static/js/213.370cafde.chunk.js",
+    "static/js/455.10ba8eec.chunk.js": "/static/js/455.10ba8eec.chunk.js",
+    "static/js/453.abd36b29.chunk.js": "/static/js/453.abd36b29.chunk.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/logo.png": "/static/media/logo.dd9083dc418806cb63ea.png",
+    "static/media/forget_pass_img.png": "/static/media/forget_pass_img.c907dd57105af5ebf5bd.png",
+    "static/media/boxicons.woff2": "/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "static/media/logo1.PNG": "/static/media/logo1.c8fd0b1647694fc6e768.PNG",
+    "static/media/tot_orders.png": "/static/media/tot_orders.d599ad969cc579bb58aa.png",
+    "static/media/in_process.png": "/static/media/in_process.b8410a97cd106f511462.png",
+    "static/media/deliverd.png": "/static/media/deliverd.316da2fd101e41ec4dd5.png",
+    "static/media/samsung.mp3": "/static/media/samsung.942fe53c07352ae0bf97.mp3",
+    "static/media/Swing.svg": "/static/media/Swing.a4f3d082e5269841d374bd00809ef46d.svg",
+    "index.html": "/index.html",
+    "main.5aeec1ff.css.map": "/static/css/main.5aeec1ff.css.map",
+    "main.819284a5.js.map": "/static/js/main.819284a5.js.map",
+    "213.370cafde.chunk.js.map": "/static/js/213.370cafde.chunk.js.map",
+    "455.10ba8eec.chunk.js.map": "/static/js/455.10ba8eec.chunk.js.map",
+    "453.abd36b29.chunk.js.map": "/static/js/453.abd36b29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5aeec1ff.css",
+    "static/js/main.819284a5.js"
+  ]
+}
